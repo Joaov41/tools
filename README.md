@@ -1,5 +1,5 @@
 # Writing Tools (iOS)
-Port by JVal of the theJayTea/WritingTools work
+Port by Joaov41 of the theJayTea/WritingTools work
 
 A lightweight iOS app built with SwiftUI that helps improve your writing using AI. It supports rewriting text, summarizing, extracting key points, and more. It also includes a Share Extension so you can process text from other apps conveniently.
 
