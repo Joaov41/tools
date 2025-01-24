@@ -1,7 +1,7 @@
 # Writing Tools (iOS)
 Port by Joaov41 of the theJayTea/WritingTools work
 
-A lightweight iOS app built with SwiftUI that helps improve your writing using AI. It supports rewriting text, summarizing, extracting key points, and more. It also includes a Share Extension so you can process text from other apps conveniently.
+A lightweight iOS app built with SwiftUI that helps improve your writing using Gemini API. It supports rewriting text, summarizing, extracting key points, and more. It also includes a Share Extension so you can process text from other apps conveniently. Implemented Q&A.
 
 ## Features
 
@@ -11,10 +11,15 @@ A lightweight iOS app built with SwiftUI that helps improve your writing using A
   - *Rewrite*: Improve phrasing and readability  
   - *Friendly / Professional / Concise*: Adjust the style or tone  
   - *Summary / Key Points*: Summarize text or extract bullet points  
-  - *Table*: Convert text into a Markdown table  
+  - *Table*: Convert text into a Markdown table
+  - Added the hability to send images and jut not text to the LLM
 
-- **Custom Instruction**  
-  Provide your own instructions to apply custom transformations to your text.
+  ![image](https://github.com/user-attachments/assets/14513b62-9a6b-441e-8aeb-d3fc1ede6bc1)
+
+  ![image](https://github.com/user-attachments/assets/6ff6cbc4-fa67-44d0-8eb4-fa11b0b938fe)
+![image](https://github.com/user-attachments/assets/6a1d4335-4e4b-4d5b-bff8-10a86c9222e2)
+
+
 
 - **Chat Conversation**  
   An AI-powered chat feature that lets you carry on a multi-turn conversation with the model.
