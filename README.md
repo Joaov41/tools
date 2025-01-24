@@ -29,3 +29,8 @@ A lightweight iOS app built with SwiftUI that helps improve your writing using G
 
 - **Onboarding & Settings**  
   Simple onboarding experience. Configure your own API key and preferred model under “Settings.”
+
+Fill with your Gemini Key and Reddit credentials on the appropriate places in the code
+![CleanShot 2025-01-24 at 20 46 08@2x](https://github.com/user-attachments/assets/aed557b8-530d-492d-b65d-45623cdd6bb0)
+![CleanShot 2025-01-24 at 20 46 23@2x](https://github.com/user-attachments/assets/4d09f567-aaaf-441d-abfc-8ff0f1ae00a0)
+
