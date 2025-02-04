@@ -2,6 +2,7 @@
 Port by Joaov41 of the theJayTea/WritingTools work
 
 A lightweight iOS app built with SwiftUI that helps improve your writing using Gemini API. It supports rewriting text, summarizing, extracting key points, and more. It also includes a Share Extension so you can process text from other apps conveniently. Implemented Q&A.
+This code has the Ui optimized for Iphone. There is another version optmized for the ipad layout. 
 
 ## Features
 
