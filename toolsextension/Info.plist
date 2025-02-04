@@ -1,0 +1,39 @@
+<!-- Info.plist for Share Extension -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <!-- This dictionary configures what your extension can receive -->
+            <key>NSExtensionActivationRule</key>
+            <dict>
+                <!-- Support plain text sharing -->
+                <key>NSExtensionActivationSupportsText</key>
+                <true/>
+                <!-- Support 1 web URL -->
+                <key>NSExtensionActivationSupportsWebURLWithMaxCount</key>
+                <integer>1</integer>
+                <!-- Support 1 webpage -->
+                <key>NSExtensionActivationSupportsWebPageWithMaxCount</key>
+                <integer>1</integer>
+            </dict>
+        </dict>
+
+        <!-- Name of your JavaScript preprocessing file (exclude the .js extension) -->
+        <key>NSExtensionJavaScriptPreprocessingFile</key>
+        <string>PagePreprocessing</string>
+
+        <!-- Main storyboard for your share extension UI -->
+        <key>NSExtensionMainStoryboard</key>
+        <string>MainInterface</string>
+
+        <!-- Must be com.apple.share-services for a share extension -->
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.share-services</string>
+    </dict>
+</dict>
+</plist>
