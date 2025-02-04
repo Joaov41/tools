@@ -29,3 +29,5 @@ A lightweight iOS app built with SwiftUI that helps improve your writing using G
 
 - **Onboarding & Settings**  
   Simple onboarding experience. Configure your own API key and preferred model under “Settings.”
+
+- ** Added the hability to share to the app an URL, through share sheet directly. The app will extract the text from that URL and makes the content available for use with any of the app's option, summarize, key points, etc. 
